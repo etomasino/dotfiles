@@ -17,14 +17,15 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'arcticicestudio/nord-vim'
 " Better syntax-highlighting for filetypes in vim
 Plug 'sheerun/vim-polyglot'
-" Intellisense engine
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Git integration
 Plug 'tpope/vim-fugitive'
 " Auto-close braces and scopes
 Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
+
+" Intellisense engine
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
 let NERDTreeShowHidden=1

@@ -32,3 +32,5 @@ call plug#end()
 
 let NERDTreeShowHidden=1
 
+set hlsearch
+set is
